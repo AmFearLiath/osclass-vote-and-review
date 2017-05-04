@@ -1,0 +1,640 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Vote and Review\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-02-28 15:15+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: carlos <carlos@osclass.org>\n"
+"Language-Team: Liath <amfearliath@gmx.de>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/admin.php:47 admin/admin.php:51
+msgid "<strong>All Settings saved.</strong> Your plugin is now configured"
+msgstr ""
+"<strong>Einstellungen gespeichert</strong> Das Plugin ist jetzt konfiguriert"
+
+#: admin/admin.php:56 admin/admin.php:60
+msgid ""
+"<strong>Error.</strong> Your settings can not be saved, please try again"
+msgstr ""
+"<strong>Fehler</strong> Die Einstellungen konnten nicht geseichert werden, "
+"versuche es bitte erneut."
+
+#: admin/admin.php:69 admin/admin.php:73
+msgid ""
+"<strong>Import done.</strong> All ratings from old voting plugin are "
+"transfered. Now you can uninstall old voting plugin."
+msgstr ""
+"<strong>Import fertig</strong> Alle Bewertungen wurden übernommen. Du kannst "
+"das alte Plugin jetzt deinstallieren."
+
+#: admin/admin.php:78 admin/admin.php:82
+msgid ""
+"<strong>ERROR</strong> There was an Error while transfering the old votings, "
+"please try again"
+msgstr ""
+"<strong>FEHLER</strong> Während dem Import der alten Bewertungen ist ein "
+"Fehler aufgetreten, versuche es bitte erneut."
+
+#: admin/admin.php:94
+msgid "Votes and Reviews"
+msgstr "Bewertungen und Rezensionen"
+
+#: admin/admin.php:95
+msgid "Remake by Liath based on Voting by OSClass"
+msgstr "Neuauflage von Liath basierend auf Voting von OSClass"
+
+#: admin/admin.php:99 admin/admin.php:106 admin/admin.php:107
+msgid "Import"
+msgstr "Import"
+
+#: admin/admin.php:100
+msgid ""
+"Click here to import all ratings from old voting plugin to this plugin. "
+"Please don't refresh page while import is running"
+msgstr ""
+"Hier klicken, um die alten Bewertungen zu importieren. Während dem Import "
+"bitte nicht diese Seite aktualisieren."
+
+#: admin/admin.php:101
+#, php-format
+msgid "There are %d item and %d user votings to import"
+msgstr "Es gibt %d Angebots- und %d Benutzerbewertungen zu importieren."
+
+#: admin/admin.php:111
+msgid "Import is working"
+msgstr "Import läuft"
+
+#: admin/admin.php:129
+msgid "Main settings"
+msgstr "Haupteinstellungen"
+
+#: admin/admin.php:130
+msgid ""
+"Here you can determine whether the necessary libraries to be loaded as well. "
+"If they are already loaded by other scripts, disable it. If plugin "
+"<em>seller verification</em> is installed, you can activate it, to show a "
+"banner on best rated items."
+msgstr ""
+"Hier kannst Du festlegen, welche notwendigen Bibliotheken geladen werden "
+"sollen. Werden sie durch ein anderes Plugin bereits geladen, deaktiviere sie "
+"bitte hier um Konflikte zu vermeiden. Hast Du das Plugin <em>Seller "
+"Verification</em> installiert, kannst Du die Option aktivieren, um einen "
+"Banner in den am besten bewerteten Angeboten anzuzeigen."
+
+#: admin/admin.php:137
+msgid "Load Font Awesome (only deactivate, if loaded by other scripts)"
+msgstr ""
+"Lade Font Awesome (nur deaktivieren, wenn bereits durch andere Plugins "
+"geladen)"
+
+#: admin/admin.php:145
+msgid "Load jQuery.bxSlider.js (only deactivate, if loaded by other scripts)"
+msgstr ""
+"Lade jQuery.bxSlider.js (nur deaktivieren, wenn bereits durch andere Plugins "
+"geladen)"
+
+#: admin/admin.php:153
+msgid "Do you want to show verificated seller on best rated items and user?"
+msgstr ""
+"Möchtest Du verifizierte Anbieter in den am besten bewerteten Angeboten und "
+"Benutzern anzeigen lassen?"
+
+#: admin/admin.php:158
+msgid "Item settings"
+msgstr "Angebotseinstellungen"
+
+#: admin/admin.php:159
+msgid ""
+"Here you can activate the votes and reviews for items and determine who can "
+"vote"
+msgstr ""
+"Hier kannst Du die Bewertungen und Rezensionen für Angebote aktivieren und "
+"bestimmen, wer bewerten darf."
+
+#: admin/admin.php:166
+msgid "Enable for items"
+msgstr "Für Angebote aktivieren"
+
+#: admin/admin.php:173
+msgid "Only registered users can vote"
+msgstr "Nur registrierte Benutzer dürfen bewerten"
+
+#: admin/admin.php:180
+msgid "All can vote the items"
+msgstr "Alle dürfen Angebote bewerten"
+
+#: admin/admin.php:184
+msgid "User settings"
+msgstr "Benutzereinstellungen"
+
+#: admin/admin.php:185
+msgid ""
+"Here you can activate the votes and reviews for users. Only registered user "
+"can vote other user."
+msgstr ""
+"Hier kannst Du die Bewertungen und Rezensionen für Benutzer aktivieren und "
+"bestimmen. Nur registrierte Benutzer dürfen andere Benutzer bewerten."
+
+#: admin/admin.php:192
+msgid "Enable for users"
+msgstr "Für Benutzer aktivieren"
+
+#: admin/admin.php:198 admin/admin.php:199
+msgid "Save"
+msgstr "Speichern"
+
+#: admin/help.php:36
+msgid "Information"
+msgstr "Information"
+
+#: admin/help.php:38
+msgid ""
+"This Plugin is a remake of the Plugin <strong><em>Rating by OSClass</em></"
+"strong>."
+msgstr ""
+"Dieses Plugin ist eine Neuauflage des Plugins <strong><em>Rating von "
+"OSClass</em></strong>."
+
+#: admin/help.php:42
+msgid "Reviews for items and users now supported."
+msgstr "Rezensionen für Angebote und Benutzer sind jetzt verfügbar"
+
+#: admin/help.php:43
+msgid "Use Font Awesome instead of images for the stars"
+msgstr "Nutzt Font Awesome anstatt Bilder für die Sterne"
+
+#: admin/help.php:44
+msgid "Reviews are shown in a vertical slider, based on jQuery.bxSlider.js"
+msgstr ""
+"Rezensionen werden in einem vertikalen Slider angezeigt, basierend auf "
+"jQuery.bxSlider.js"
+
+#: admin/help.php:45
+msgid "Font Awesome and bxSlider can be activated separately"
+msgstr "Font Awesome und bxSlider können separat aktiviert werden"
+
+#: admin/help.php:46
+msgid "Best rated items now improved and moved to main page instead of sidebar"
+msgstr ""
+"Die bestbewerteten Angebote wurden verbessert und anstelle der Seitenleiste, "
+"auf die Hauptseite verlegt."
+
+#: admin/help.php:52
+msgid "Plugin information"
+msgstr "Plugininformationen"
+
+#: admin/help.php:54
+msgid ""
+"This plugin adds a rating system and allows users to vote among them the "
+"quality of the item and quality sellers"
+msgstr ""
+"Dieses Plugin fügt ein Bewertungssystem in die Seite ein und ermöglicht es "
+"den Benutzern die Qualität der angebotenen Artikel und die "
+"Vertrauenswürdigkeit der Anbieter zu bewerten."
+
+#: admin/help.php:58
+msgid "Easy plugin configuration."
+msgstr "Einfache Pluginkonfiguration"
+
+#: admin/help.php:59
+msgid ""
+"Vote items, can be enabled and disabled. It can be configured what kind of "
+"users can vote items, registered users only or guest too"
+msgstr ""
+"Angebote bewerten kann de/aktiviert werden. Es kann eingestellt werden, ob "
+"nur registrierte Benutzer oder auch Gäste Angebote bewerten dürfen."
+
+#: admin/help.php:60
+msgid ""
+"Vote users, can be enabled and disabled. Only registered users can vote "
+"sellers"
+msgstr ""
+"Angebote bewerten kann de/aktiviert werden.  Nur registrierte Benutzer "
+"dürfen Anbieter bewerten."
+
+#: admin/help.php:61
+msgid ""
+"Allows to show the best rated items or users at frontend, adding some extra "
+"code at your template"
+msgstr ""
+"Erlaubt es die am besten bewertetsten Angebote auf der Startseite "
+"anzuzeigen, indem man einen kleinen Code in das Template einfügt."
+
+#: admin/help.php:67
+msgid "Frequently asked questions"
+msgstr "Meist gestellte Fragen (F.A.Q)"
+
+#: admin/help.php:69
+msgid "How can I show best rated listings or users?"
+msgstr "Wie kann ich die best bewertetsten Angebote oder Anbieter anzeigen?"
+
+#: admin/help.php:70 admin/help.php:112
+msgid "How can I add the votes in my template?"
+msgstr "Wie kann ich die Bewertungen in mein Theme einfügen?"
+
+#: admin/help.php:71 admin/help.php:126
+msgid "How to change the way the votes are displayed?"
+msgstr "Wie kann ich das Aussehen der Bewertungen ändern?"
+
+#: admin/help.php:77
+msgid "How can I show the best rated listings or users?"
+msgstr "Wie kann ich die best bewertetsten Angebote oder Anbieter anzeigen?"
+
+#: admin/help.php:77 admin/help.php:112 admin/help.php:126
+msgid "Start of page"
+msgstr "zum Seitenanfang"
+
+#: admin/help.php:78
+msgid ""
+"You can display the best rated listings or users list, wherever you want"
+msgstr ""
+"Du kannst die am besten bewertetsten Angebote oder Benutzer anzeigen wo Du "
+"möchtest."
+
+#: admin/help.php:79
+msgid ""
+"By adding this line of code, you can show the listings or users at main web "
+"page, <span style=\"text-decoration: line-through;\">in the sidebar</span>"
+msgstr ""
+"Wenn Du diesen Code einfügst, kannst Du die Angebote und Benutzer auf der "
+"Hauptseite  <span style=\"text-decoration: line-through;\">in der "
+"Seitenleiste</span> anzeigen lassen"
+
+#: admin/help.php:81
+msgid "Listings"
+msgstr "Angebote"
+
+#: admin/help.php:83
+msgid "NUMBER_OF_LISTINGS"
+msgstr "ANZAHL_DER_ANGEBOTE"
+
+#: admin/help.php:85
+msgid "Note: replace NUMBER_OF_ITEMS with a number of items you want to list"
+msgstr ""
+"Anmerkung: Ändere ANZAHL_DER_ANGEBOTE zu der Anzahl, wieviele Angebote "
+"angezeigt werden sollen"
+
+#: admin/help.php:86
+msgid ""
+"Edit main.php (located under root theme folder) This example shows my "
+"implementation in theme osclasswizards"
+msgstr ""
+"Bearbeite main.php (in Deinem Themeordner). Dieses Beispiel zeigt meine "
+"Integration im Theme osclasswizards"
+
+#: admin/help.php:96 admin/help.php:118
+msgid "Users"
+msgstr "Benutzer"
+
+#: admin/help.php:98
+msgid "NUMBER_OF_USERS"
+msgstr "ANZAHL_DER_BENUTZER"
+
+#: admin/help.php:99
+msgid "Note: replace NUMBER_OF_USERS with a number of users you want to list"
+msgstr ""
+"Anmerkung: Ändere ANZAHL_DER_BENUTZER zu der Anzahl, wieviele Angebote "
+"angezeigt werden sollen"
+
+#: admin/help.php:100
+msgid "Edit main.php (located under root theme folder)"
+msgstr "Bearbeite main.php (im Hauptverzeichnis Deines Templates)"
+
+#: admin/help.php:113
+msgid "Items"
+msgstr "Angebote"
+
+#: admin/help.php:115
+msgid ""
+"You need to add this line in the sidebar of your theme, found in items.php "
+"or items-sidebar.php (located under root theme folder) :"
+msgstr ""
+"Du musst diese Zeile in der Seitenleiste Deines Themes hinzufügen, diese "
+"findest Du in items.php oder items-sidebar.php (in Deinem Themeordner)"
+
+#: admin/help.php:120
+msgid ""
+"To show votes on the public user profile, modify the user-public-profile.php "
+"(located under root theme folder) and place this line where you want"
+msgstr ""
+"Um Bewertungen im öffentlichen Benutzerprofil anzuzeigen, bearbeite die user-"
+"public-profile.php (in Deinem Themeordner) und platziere diese Zeile wo Du "
+"möchtest"
+
+#: admin/help.php:128
+msgid ""
+"If you want to modify the templates, you can find them in the plugin folder"
+msgstr ""
+"Möchtest Du das Aussehen der Bewertungen ändern, bearbeite die "
+"Templatedateien im Pluginverzeichnis"
+
+#: admin/help.php:129
+msgid "Template for rate and review items"
+msgstr "Template für Bewertungen und Beschreibungen der Angebote"
+
+#: admin/help.php:130
+msgid "Template for rate and review users"
+msgstr "Template für Bewertungen und Beschreibungen der Benutzer"
+
+#: admin/help.php:132
+msgid "Template to show best rated items"
+msgstr "Template für best bewertete Angebote"
+
+#: admin/help.php:133
+msgid "Template to show best rated users"
+msgstr "Template für best bewertete Benutzer"
+
+#: admin/help.php:135
+msgid "Wrapper for rating items (Not neccessary to edit in most case)"
+msgstr ""
+"Container für Angebotsbewertungen (muss in den meisten Fällen nicht "
+"bearbeitet werden)"
+
+#: admin/help.php:136
+msgid "Wrapper for rating users (Not neccessary to edit in most case)"
+msgstr ""
+"Container für Benutzerbewertungen (muss in den meisten Fällen nicht "
+"bearbeitet werden)"
+
+#: classes/var.class.php:458
+msgid "See your profile"
+msgstr "Profil ansehen"
+
+#: classes/var.class.php:468
+msgid "New review"
+msgstr "Neue Rezension"
+
+#: classes/var.class.php:469
+msgid "Hello {TO_NAME},"
+msgstr "Hallo {TO_NAME},"
+
+#: classes/var.class.php:470
+msgid "There is a new review for you"
+msgstr "Du hast eine neue Rezension"
+
+#: classes/var.class.php:471
+msgid "From"
+msgstr "Von"
+
+#: classes/var.class.php:472 views/detailItems.php:11 views/detailUsers.php:11
+#: views/voteItems.php:22 views/voteUsers.php:23
+msgid "Vote"
+msgstr "Bewertung"
+
+#: classes/var.class.php:473
+msgid "Review"
+msgstr "Rezension"
+
+#: classes/var.class.php:474
+msgid "Best regards"
+msgstr "Mit freundlichen Grüßen"
+
+#: index.php:51
+msgid "Vote and Review"
+msgstr "Bewertungen und Rezensionen"
+
+#: index.php:53 index.php:59
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: index.php:54 index.php:60
+msgid "Categories"
+msgstr "Kategorien"
+
+#: index.php:55 index.php:61 index.php:99
+msgid "Help"
+msgstr "Hilfe"
+
+#: index.php:58
+msgid "Voting"
+msgstr "Bewertungen"
+
+#: index.php:106
+msgid "Configuration"
+msgstr "Konfiguration"
+
+#: views/bestItems.php:17
+msgid "Best voted Listings"
+msgstr "Am besten bewertete Angebote"
+
+#: views/bestItems.php:45 views/voteItems.php:33
+msgid "Without interest"
+msgstr "absolut Unwichtig"
+
+#: views/bestItems.php:46 views/voteItems.php:34
+msgid "Uninteresting"
+msgstr "Uninteressant"
+
+#: views/bestItems.php:47 views/voteItems.php:35
+msgid "Interesting"
+msgstr "Interessant"
+
+#: views/bestItems.php:48 views/voteItems.php:36
+msgid "Very interesting"
+msgstr "sehr Interessant"
+
+#: views/bestItems.php:49 views/voteItems.php:37
+msgid "Essential"
+msgstr "Großartig"
+
+#: views/bestItems.php:51 views/bestUsers.php:52 views/voteItems.php:39
+#: views/voteUsers.php:49
+msgid "Votes"
+msgstr "Bewertungen"
+
+#: views/bestUsers.php:15
+msgid "Best voted user"
+msgstr "Am besten bewertete Benutzer"
+
+#: views/bestUsers.php:46 views/voteUsers.php:43
+msgid "Not worth believing"
+msgstr "Nicht Vertrauenswürdig"
+
+#: views/bestUsers.php:47 views/voteUsers.php:44
+msgid "Problematic"
+msgstr "Problematisch"
+
+#: views/bestUsers.php:48 views/voteUsers.php:45
+msgid "Quite well"
+msgstr "Ganz gut"
+
+#: views/bestUsers.php:49 views/voteUsers.php:46
+msgid "Good Dealer"
+msgstr "Guter Verkäufer"
+
+#: views/bestUsers.php:50 views/voteUsers.php:47
+msgid "Great Dealer"
+msgstr "Großartiger Verkäufer"
+
+#: views/detailItems.php:14 views/detailUsers.php:14
+msgid "Loading"
+msgstr "Lade"
+
+#: views/voteItems.php:22 views/voteUsers.php:23
+#, php-format
+msgid "on %s at %s"
+msgstr "am %s um %s Uhr"
+
+#: views/voteItems.php:39 views/voteUsers.php:49
+msgid "Average"
+msgstr "Durchschnitt"
+
+#: views/voteItems.php:41 views/voteUsers.php:51
+msgid "No votes yet"
+msgstr "Noch keine Bewertungen"
+
+#: views/voteItems.php:48
+msgid "Please let other users know what you think about this ad."
+msgstr "Was denkst Du über dieses Angebot"
+
+#: views/voteItems.php:49 views/voteUsers.php:59
+msgid "Your Vote"
+msgstr "Deine Bewertung"
+
+#: views/voteItems.php:50 views/voteUsers.php:60
+msgid "Your Review"
+msgstr "Deine Rezension"
+
+#: views/voteItems.php:51 views/voteUsers.php:61
+msgid "Please exercise friendly and constructive."
+msgstr "Bitte sei freundlich und konstruktiv"
+
+#: views/voteItems.php:52 views/voteUsers.php:62
+msgid "Send"
+msgstr "Senden"
+
+#: views/voteUsers.php:58
+msgid "Please let other users know what you think about this seller."
+msgstr "Was denkst Du über diesen Verkäufer"
+
+#~ msgid "<strong>All Settings saved.</strong> Your plugin ist now configured"
+#~ msgstr ""
+#~ "<strong>Einstellungen gespeichert.</strong> Das Plugin ist jetzt "
+#~ "konfiguriert"
+
+#~ msgid ""
+#~ "Here you can determine whether the necessary libraries to be loaded as "
+#~ "well. If they are already loaded by other scripts, disable it."
+#~ msgstr ""
+#~ "Hier kannst Du bestimmen, welche notwendigen Bibliotheken mitgeladen "
+#~ "werden sollen. Werden sie bereits durch andere Plugins geladen, "
+#~ "deaktiviere diese Optionen."
+
+#~ msgid ""
+#~ "This Plugin is a remake of the Plugin <strong><em>Voting by OSClass</em></"
+#~ "strong>."
+#~ msgstr ""
+#~ "Dieses Plugin ist eine Neuauflage des Plugins <strong><em>Voting von "
+#~ "OSClass</em></strong>."
+
+#~ msgid "Best voted"
+#~ msgstr "Am besten bewertet"
+
+#~ msgid "votes"
+#~ msgstr "Bewertungen"
+
+#~ msgid "Best users voted"
+#~ msgstr "Am besten bewertete Anbieter"
+
+#~ msgid "Without information"
+#~ msgstr "Noch nicht bewertet"
+
+#~ msgid "Please let other users know what you think about this user."
+#~ msgstr "Was denkst Du über diesen Benutzer"
+
+#~ msgid "Congratulations. The plugin is now configured"
+#~ msgstr "Glückwunsch, das Plugin ist jetzt konfiguriert"
+
+#~ msgid "Users voting"
+#~ msgstr "Anbieterbewertungen"
+
+#~ msgid "Voting options"
+#~ msgstr "Bewertungen"
+
+#~ msgid "Result"
+#~ msgstr "Ergebnis"
+
+#~ msgid "How can I change where votes are displayed?"
+#~ msgstr ""
+#~ "Wie kann ich die Position ändern, an der die Bewertungen dargestellt "
+#~ "werden?"
+
+#~ msgid "How can I show user rating on user dashboard?"
+#~ msgstr ""
+#~ "Wie kann ich die Benutzerbewertungen im Benutzerkontrollzentrum anzeigen?"
+
+#~ msgid "How can I show user rating on public user profile?"
+#~ msgstr ""
+#~ "Wie kann ich Benutzerbewertungen im öffentlichen Benutzerprofil anzeigen?"
+
+#~ msgid ""
+#~ "By adding this line of code, you can show the listings or users at main "
+#~ "web page, in the sidebar"
+#~ msgstr ""
+#~ "Wenn Du diesen Code einfügst, kannst Du die Bewertungen  auf der "
+#~ "Hauptseite oder in der Seitenleiste anzeigen."
+
+#~ msgid "How can I change the place where the votes are displayed?"
+#~ msgstr "Wie kann ich den Ort ändern, wo die Bewertungen angezeigt werden?"
+
+#~ msgid "By default"
+#~ msgstr "Standard"
+
+#~ msgid "Vote section"
+#~ msgstr "Bewertungen"
+
+#~ msgid ""
+#~ "is added below item description, however if you need to change its place, "
+#~ "follow these steps:"
+#~ msgstr ""
+#~ "werden unter der Angebotsbeschreibung hinzugefügt, möchtest Du dies "
+#~ "ändern, folge dieser Anleitung"
+
+#~ msgid ""
+#~ "You need to add this line at end of functions.php (located under root "
+#~ "theme folder) :"
+#~ msgstr ""
+#~ "Füge diese Zeile an das Ende Deiner functions.php (im Hauptverzeichnis "
+#~ "Deines Templates)"
+
+#~ msgid "Now you can call function"
+#~ msgstr "Jetzt kannst Du folgende Funktion aufrufen"
+
+#~ msgid "directly where you want <b>into item page</b>"
+#~ msgstr "da wo Du möchtest <b>auf der Angebotsseite</b>"
+
+#~ msgid ""
+#~ "You can show user ratings on User Dashboard by passing as argument the "
+#~ "user id"
+#~ msgstr ""
+#~ "Du kannst die Bewertungen im Benutzerkontrollzentrum anzeigen, wenn Du "
+#~ "als Parameter die BenutzerID mitlieferst"
+
+#~ msgid ""
+#~ "You can show user ratings on User public profile by passing as argument "
+#~ "the user id"
+#~ msgstr ""
+#~ "Du kannst die Bewertungen im Benutzerprofil anzeigen, wenn Du als "
+#~ "Parameter die BenutzerID mitlieferst"
+
+#~ msgid "Template rating items"
+#~ msgstr "Template: Angebotsbewertungen"
+
+#~ msgid "Template rating users"
+#~ msgstr "Template: Benutzerbewertungen"
+
+#~ msgid "Template best rated items"
+#~ msgstr "Template: best bewertetste Angebote"
+
+#~ msgid "Template best rated users"
+#~ msgstr "Template: best bewertetste Anbieter"

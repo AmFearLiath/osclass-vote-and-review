@@ -1,0 +1,150 @@
+#wrapper_voting_plugin .inner_wrap {
+  background-color: #f8fbfc;
+  border: 1px solid #eaeaea;
+  padding: 10px;
+}
+.vote_results, .user_vote_results {
+    text-align: center;
+    margin: 0 -10px 0 -10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+.vote_results i, .user_vote_results i {
+  color: rgba(52, 152, 219, 0.7);
+  margin: -3px;
+  padding: 3px;
+  -moz-text-shadow: 2px 2px 2px #fff, 0px 0px 0px #000;
+  text-shadow: 2px 2px 2px #fff, 0px 0px 0px #000;
+}
+#voting_plugin, #voting_plugin_user {
+  position: relative;
+}
+
+.rate_me {
+  float: left;
+}
+.rate_me_star {
+  width: 100px;
+  float: right;
+}
+.rate_me .votes_results {
+  float: left;
+  margin: 0 5px 0 0;
+}
+.votes_vote img {
+  position: relative!important;
+  top: 6px;
+}
+.votes_stars .bx-wrapper, .user_votes_stars .bx-wrapper {
+  margin: 0;
+}
+.votes_stars .bx-viewport, .user_votes_stars .bx-viewport {
+  height: 200px !important;
+}
+div#vote_reviews, div#user_vote_reviews {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 10px;
+  max-height: 200px;
+}
+div#vote_reviews .review_item, div#user_vote_reviews .review_item {
+  width: 100% !important;
+  margin: 5px 5px 10px 5px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #ddd;
+}
+.review_item p {
+  margin: 0;
+}
+p.review_name {
+  font-size: 12px;
+  font-weight: bold;
+  border-bottom: 1px dashed #eaeaea;
+}
+p.review_name i {
+  color: #000;
+}
+p.review_name a {
+  color: #31b0d5;
+}
+p.review_name a:hover {
+  color: #000;
+}
+p.review_name small {
+  float: right;
+  margin-right: 5px;
+  font-size: 8px;
+}
+
+.best-voted-item .best-voted-header {
+  position: relative;
+  background-color: #f8fbfc;
+  border: 1px solid #9E1F1F;
+  height: 80px;
+}
+.best-voted-item span.location {
+  position: absolute;
+  left: 5px;
+}
+.best-voted-item figure {
+  height: 150px;
+  border-left: 1px solid #9E1F1F;
+  border-right: 1px solid #9E1F1F;
+}
+
+.best-voted-user .best-voted-header {
+  position: relative;
+  background-color: #f8fbfc;
+  height: 250px;
+}
+.best-voted-user figure {
+  height: 250px;
+}
+.best-voted-user .best-voted-header img {
+  width: 100%;
+}
+.best-voted-user .best-voted-header div.informations {
+  position: absolute;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.6);
+  color: #000;
+  width: calc(100% - 6px);
+  padding: 5px;
+  margin: 3px;
+}
+.best-voted-seller-verification img {
+  width: 50px;
+}
+.best-voted-item figure a img {
+  width: 100%;
+}
+img.trusted-seller {
+  max-width: 60px !important;
+}
+.best-voted-item .listing-attr {
+  margin-bottom: 15px;
+  padding: 0;
+}
+.best-voted-item .listing-attr p {
+  padding: 0 5px;
+}
+.best-voted-item .currency-value {
+  position: relative;
+  float: right;
+  margin: 0 -20px 0 0;
+}
+
+.banner_premium.best {
+  position: absolute;
+  z-index: 9;
+  top: 0;
+  right: 0;
+  width: 50px;
+  display: none;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+}
+div.premium .banner_premium {
+  display: block;
+}

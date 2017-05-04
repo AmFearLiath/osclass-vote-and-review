@@ -1,0 +1,456 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Voting 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-02-28 15:15+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: carlos <carlos@osclass.org>\n"
+"Language-Team: OSClass <info@osclass.org>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/admin.php:47 admin/admin.php:51
+msgid "<strong>All Settings saved.</strong> Your plugin is now configured"
+msgstr ""
+
+#: admin/admin.php:56 admin/admin.php:60
+msgid ""
+"<strong>Error.</strong> Your settings can not be saved, please try again"
+msgstr ""
+
+#: admin/admin.php:69 admin/admin.php:73
+msgid ""
+"<strong>Import done.</strong> All ratings from old voting plugin are "
+"transfered. Now you can uninstall old voting plugin."
+msgstr ""
+
+#: admin/admin.php:78 admin/admin.php:82
+msgid ""
+"<strong>ERROR</strong> There was an Error while transfering the old votings, "
+"please try again"
+msgstr ""
+
+#: admin/admin.php:94
+msgid "Votes and Reviews"
+msgstr ""
+
+#: admin/admin.php:95
+msgid "Remake by Liath based on Voting by OSClass"
+msgstr ""
+
+#: admin/admin.php:99 admin/admin.php:106 admin/admin.php:107
+msgid "Import"
+msgstr ""
+
+#: admin/admin.php:100
+msgid ""
+"Click here to import all ratings from old voting plugin to this plugin. "
+"Please don't refresh page while import is running"
+msgstr ""
+
+#: admin/admin.php:101
+#, php-format
+msgid "There are %d item and %d user votings to import"
+msgstr ""
+
+#: admin/admin.php:111
+msgid "Import is working"
+msgstr ""
+
+#: admin/admin.php:129
+msgid "Main settings"
+msgstr ""
+
+#: admin/admin.php:130
+msgid ""
+"Here you can determine whether the necessary libraries to be loaded as well. "
+"If they are already loaded by other scripts, disable it. If plugin "
+"<em>seller verification</em> is installed, you can activate it, to show a "
+"banner on best rated items."
+msgstr ""
+
+#: admin/admin.php:137
+msgid "Load Font Awesome (only deactivate, if loaded by other scripts)"
+msgstr ""
+
+#: admin/admin.php:145
+msgid "Load jQuery.bxSlider.js (only deactivate, if loaded by other scripts)"
+msgstr ""
+
+#: admin/admin.php:153
+msgid "Do you want to show verificated seller on best rated items and user?"
+msgstr ""
+
+#: admin/admin.php:158
+msgid "Item settings"
+msgstr ""
+
+#: admin/admin.php:159
+msgid ""
+"Here you can activate the votes and reviews for items and determine who can "
+"vote"
+msgstr ""
+
+#: admin/admin.php:166
+msgid "Enable for items"
+msgstr ""
+
+#: admin/admin.php:173
+msgid "Only registered users can vote"
+msgstr ""
+
+#: admin/admin.php:180
+msgid "All can vote the items"
+msgstr ""
+
+#: admin/admin.php:184
+msgid "User settings"
+msgstr ""
+
+#: admin/admin.php:185
+msgid ""
+"Here you can activate the votes and reviews for users. Only registered user "
+"can vote other user."
+msgstr ""
+
+#: admin/admin.php:192
+msgid "Enable for users"
+msgstr ""
+
+#: admin/admin.php:198 admin/admin.php:199
+msgid "Save"
+msgstr ""
+
+#: admin/help.php:36
+msgid "Information"
+msgstr ""
+
+#: admin/help.php:38
+msgid ""
+"This Plugin is a remake of the Plugin <strong><em>Rating by OSClass</em></"
+"strong>."
+msgstr ""
+
+#: admin/help.php:42
+msgid "Reviews for items and users now supported."
+msgstr ""
+
+#: admin/help.php:43
+msgid "Use Font Awesome instead of images for the stars"
+msgstr ""
+
+#: admin/help.php:44
+msgid "Reviews are shown in a vertical slider, based on jQuery.bxSlider.js"
+msgstr ""
+
+#: admin/help.php:45
+msgid "Font Awesome and bxSlider can be activated separately"
+msgstr ""
+
+#: admin/help.php:46
+msgid "Best rated items now improved and moved to main page instead of sidebar"
+msgstr ""
+
+#: admin/help.php:52
+msgid "Plugin information"
+msgstr ""
+
+#: admin/help.php:54
+msgid ""
+"This plugin adds a rating system and allows users to vote among them the "
+"quality of the item and quality sellers"
+msgstr ""
+
+#: admin/help.php:58
+msgid "Easy plugin configuration."
+msgstr ""
+
+#: admin/help.php:59
+msgid ""
+"Vote items, can be enabled and disabled. It can be configured what kind of "
+"users can vote items, registered users only or guest too"
+msgstr ""
+
+#: admin/help.php:60
+msgid ""
+"Vote users, can be enabled and disabled. Only registered users can vote "
+"sellers"
+msgstr ""
+
+#: admin/help.php:61
+msgid ""
+"Allows to show the best rated items or users at frontend, adding some extra "
+"code at your template"
+msgstr ""
+
+#: admin/help.php:67
+msgid "Frequently asked questions"
+msgstr ""
+
+#: admin/help.php:69
+msgid "How can I show best rated listings or users?"
+msgstr ""
+
+#: admin/help.php:70 admin/help.php:112
+msgid "How can I add the votes in my template?"
+msgstr ""
+
+#: admin/help.php:71 admin/help.php:126
+msgid "How to change the way the votes are displayed?"
+msgstr ""
+
+#: admin/help.php:77
+msgid "How can I show the best rated listings or users?"
+msgstr ""
+
+#: admin/help.php:77 admin/help.php:112 admin/help.php:126
+msgid "Start of page"
+msgstr ""
+
+#: admin/help.php:78
+msgid ""
+"You can display the best rated listings or users list, wherever you want"
+msgstr ""
+
+#: admin/help.php:79
+msgid ""
+"By adding this line of code, you can show the listings or users at main web "
+"page, <span style=\"text-decoration: line-through;\">in the sidebar</span>"
+msgstr ""
+
+#: admin/help.php:81
+msgid "Listings"
+msgstr ""
+
+#: admin/help.php:83
+msgid "NUMBER_OF_LISTINGS"
+msgstr ""
+
+#: admin/help.php:85
+msgid "Note: replace NUMBER_OF_ITEMS with a number of items you want to list"
+msgstr ""
+
+#: admin/help.php:86
+msgid ""
+"Edit main.php (located under root theme folder) This example shows my "
+"implementation in theme osclasswizards"
+msgstr ""
+
+#: admin/help.php:96 admin/help.php:118
+msgid "Users"
+msgstr ""
+
+#: admin/help.php:98
+msgid "NUMBER_OF_USERS"
+msgstr ""
+
+#: admin/help.php:99
+msgid "Note: replace NUMBER_OF_USERS with a number of users you want to list"
+msgstr ""
+
+#: admin/help.php:100
+msgid "Edit main.php (located under root theme folder)"
+msgstr ""
+
+#: admin/help.php:113
+msgid "Items"
+msgstr ""
+
+#: admin/help.php:115
+msgid ""
+"You need to add this line in the sidebar of your theme, found in items.php "
+"or items-sidebar.php (located under root theme folder) :"
+msgstr ""
+
+#: admin/help.php:120
+msgid ""
+"To show votes on the public user profile, modify the user-public-profile.php "
+"(located under root theme folder) and place this line where you want"
+msgstr ""
+
+#: admin/help.php:128
+msgid ""
+"If you want to modify the templates, you can find them in the plugin folder"
+msgstr ""
+
+#: admin/help.php:129
+msgid "Template for rate and review items"
+msgstr ""
+
+#: admin/help.php:130
+msgid "Template for rate and review users"
+msgstr ""
+
+#: admin/help.php:132
+msgid "Template to show best rated items"
+msgstr ""
+
+#: admin/help.php:133
+msgid "Template to show best rated users"
+msgstr ""
+
+#: admin/help.php:135
+msgid "Wrapper for rating items (Not neccessary to edit in most case)"
+msgstr ""
+
+#: admin/help.php:136
+msgid "Wrapper for rating users (Not neccessary to edit in most case)"
+msgstr ""
+
+#: classes/var.class.php:458
+msgid "See your profile"
+msgstr ""
+
+#: classes/var.class.php:468
+msgid "New review"
+msgstr ""
+
+#: classes/var.class.php:469
+msgid "Hello {TO_NAME},"
+msgstr ""
+
+#: classes/var.class.php:470
+msgid "There is a new review for you"
+msgstr ""
+
+#: classes/var.class.php:471
+msgid "From"
+msgstr ""
+
+#: classes/var.class.php:472 views/detailItems.php:11 views/detailUsers.php:11
+#: views/voteItems.php:22 views/voteUsers.php:23
+msgid "Vote"
+msgstr ""
+
+#: classes/var.class.php:473
+msgid "Review"
+msgstr ""
+
+#: classes/var.class.php:474
+msgid "Best regards"
+msgstr ""
+
+#: index.php:51
+msgid "Vote and Review"
+msgstr ""
+
+#: index.php:53 index.php:59
+msgid "Settings"
+msgstr ""
+
+#: index.php:54 index.php:60
+msgid "Categories"
+msgstr ""
+
+#: index.php:55 index.php:61 index.php:99
+msgid "Help"
+msgstr ""
+
+#: index.php:58
+msgid "Voting"
+msgstr ""
+
+#: index.php:106
+msgid "Configuration"
+msgstr ""
+
+#: views/bestItems.php:17
+msgid "Best voted Listings"
+msgstr ""
+
+#: views/bestItems.php:45 views/voteItems.php:33
+msgid "Without interest"
+msgstr ""
+
+#: views/bestItems.php:46 views/voteItems.php:34
+msgid "Uninteresting"
+msgstr ""
+
+#: views/bestItems.php:47 views/voteItems.php:35
+msgid "Interesting"
+msgstr ""
+
+#: views/bestItems.php:48 views/voteItems.php:36
+msgid "Very interesting"
+msgstr ""
+
+#: views/bestItems.php:49 views/voteItems.php:37
+msgid "Essential"
+msgstr ""
+
+#: views/bestItems.php:51 views/bestUsers.php:52 views/voteItems.php:39
+#: views/voteUsers.php:49
+msgid "Votes"
+msgstr ""
+
+#: views/bestUsers.php:15
+msgid "Best voted user"
+msgstr ""
+
+#: views/bestUsers.php:46 views/voteUsers.php:43
+msgid "Not worth believing"
+msgstr ""
+
+#: views/bestUsers.php:47 views/voteUsers.php:44
+msgid "Problematic"
+msgstr ""
+
+#: views/bestUsers.php:48 views/voteUsers.php:45
+msgid "Quite well"
+msgstr ""
+
+#: views/bestUsers.php:49 views/voteUsers.php:46
+msgid "Good Dealer"
+msgstr ""
+
+#: views/bestUsers.php:50 views/voteUsers.php:47
+msgid "Great Dealer"
+msgstr ""
+
+#: views/detailItems.php:14 views/detailUsers.php:14
+msgid "Loading"
+msgstr ""
+
+#: views/voteItems.php:22 views/voteUsers.php:23
+#, php-format
+msgid "on %s at %s"
+msgstr ""
+
+#: views/voteItems.php:39 views/voteUsers.php:49
+msgid "Average"
+msgstr ""
+
+#: views/voteItems.php:41 views/voteUsers.php:51
+msgid "No votes yet"
+msgstr ""
+
+#: views/voteItems.php:48
+msgid "Please let other users know what you think about this ad."
+msgstr ""
+
+#: views/voteItems.php:49 views/voteUsers.php:59
+msgid "Your Vote"
+msgstr ""
+
+#: views/voteItems.php:50 views/voteUsers.php:60
+msgid "Your Review"
+msgstr ""
+
+#: views/voteItems.php:51 views/voteUsers.php:61
+msgid "Please exercise friendly and constructive."
+msgstr ""
+
+#: views/voteItems.php:52 views/voteUsers.php:62
+msgid "Send"
+msgstr ""
+
+#: views/voteUsers.php:58
+msgid "Please let other users know what you think about this seller."
+msgstr ""
